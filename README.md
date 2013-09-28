@@ -5,7 +5,7 @@ indiepub-sharing-buttons
 
 ### Font Awesome fonts
 
-The icons used by this plugin come from the Font Awesome page (see [Font Awesome](fortawesome.github.io/Font-Awesome/)). If you theme does not already load Font Awesome, you'll need to download the package to your theme directory and then load it by adding the following code snippet to your theme's `functions.php` file:
+The icons used by this plugin come from the Font Awesome page (see [Font Awesome](fortawesome.github.io/Font-Awesome/)). If your theme does not already load Font Awesome, you'll need to download the package to your theme directory and then load it by adding the following code snippet to your theme's `functions.php` file (this assumes Font Awesome has been copied to a directory called `font-awesome` inside your theme directory):
 
 ```
 /**
@@ -17,8 +17,6 @@ function register_font_awesome_style() {
 	wp_enqueue_style( 'font-awesome' );
 }
 ```
-
-In this example, Font Awesome has been copied to a directory called `font-awesome` inside your theme directory.
 
 ## Adding Your Twitter Handle to the Tweet Text
 

@@ -50,3 +50,5 @@ if ( ! function_exists( 'indiepub_sharing_buttons' ) ) :
 	<?php
 	}
 endif;
+
+add_action( 'independent_publisher_entry_meta', 'indiepub_sharing_buttons', 10 );

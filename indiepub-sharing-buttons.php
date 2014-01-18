@@ -51,4 +51,8 @@ if ( ! function_exists( 'indiepub_sharing_buttons' ) ) :
 	}
 endif;
 
-add_action( 'independent_publisher_entry_meta', 'indiepub_sharing_buttons', 10 );
+/*
+ * Add support for Independent Publisher theme
+ */
+add_action( 'independent_publisher_entry_meta_top', 'indiepub_sharing_buttons', 10 );
+add_action( 'independent_publisher_before_bottom_share_comment_button', 'indiepub_sharing_buttons', 10 );
